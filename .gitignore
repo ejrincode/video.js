@@ -1,6 +1,6 @@
 .DS_Store
-dist/*
 build/files/*
+build/temp/*
 docs/api/*
 dev.html
 projects
@@ -15,9 +15,6 @@ npm-debug.log
 sandbox/*
 !sandbox/*.example
 
-# ignore any Karma conf.js files in the test/ directory
-test/*.conf.js
-
 *.swp
 *.swo
 
@@ -25,3 +22,9 @@ test/*.conf.js
 
 *results.xml
 *.log
+
+test/coverage/*
+.coveralls.yml
+.sass-cache
+
+dist/*
